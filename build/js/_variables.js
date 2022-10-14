@@ -48,4 +48,5 @@ module.exports = {
   "component.button.secondary.color": "#FFFFFF",
   "component.button.secondary.hover.background.color": "#FFFFFF",
   "component.button.secondary.hover.color": "#8B46FF",
+  "component.button.secondary.hover.test": "#8B46FF",
 };
