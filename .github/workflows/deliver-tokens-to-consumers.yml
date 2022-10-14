@@ -18,12 +18,12 @@ jobs:
           # Set the secret in the "src" repository
           personal_token: ${{ secrets.API_TOKEN_GITHUB }}
           # You may need to change this to "main"
-          src_branch: master
+          src_branch: main
           src_path: build/js/_variables.js
           # Replace with your repository owner. Most likely, this is your GitHub username.
           dst_owner: ioboyhyeoki
           dst_repo_name: consume-style-dictionary-github-actions
           # You may need to change this to "main"
-          dst_branch: master
+          dst_branch: main
           dst_path: tokens/_variables.js
           commit_message: Update design tokens
